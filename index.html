@@ -8,78 +8,203 @@
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
-    body {
-      font-family: 'Vazirmatn', sans-serif;
-      background-color: #f7fafc;
+    body { font-family: 'Vazirmatn', sans-serif; background: #f3f4f6; }
+    .progress-bar {
+      height: 8px;
+      border-radius: 9999px;
     }
   </style>
 </head>
-<body class="text-gray-800 bg-gray-50">
-  <div class="max-w-4xl mx-auto p-6 bg-white shadow-xl mt-10 rounded-lg">
-    <div class="text-center mb-8">
+<body class="text-gray-800">
+  <div class="max-w-5xl mx-auto p-6 bg-white shadow-xl mt-10 mb-10 rounded-lg">
+
+    <!-- Header -->
+    <header class="text-center mb-10">
       <h1 class="text-4xl font-bold text-blue-700">ارشیا تقی‌زاده غفاری</h1>
-      <p class="text-xl mt-2">DevNetOps Engineer | متخصص پشتیبانی فنی و مانیتورینگ</p>
-      <div class="mt-4 text-sm text-gray-600">
+      <p class="text-xl mt-2 text-gray-700">DevNetOps Engineer | IT Help Desk Specialist | Network Developer Expert</p>
+      <div class="mt-4 text-sm text-gray-600 space-y-1">
         <p><i class="fas fa-envelope ml-1"></i> arshiaghaffari@yahoo.com</p>
         <p><i class="fas fa-phone ml-1"></i> ۰۹۰۰۵۲۰۵۲۰۲</p>
         <p><i class="fas fa-map-marker-alt ml-1"></i> تهران</p>
+        <p><i class="fas fa-birthday-cake ml-1"></i> متولد: ۱۳۸۲/۵/۲۳ | مجرد | معافیت تحصیلی</p>
       </div>
-    </div>
+    </header>
 
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold text-blue-600 mb-3">مهارت‌ها</h2>
-      <div class="flex flex-wrap gap-2">
-        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
-        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Zabbix</span>
-        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">FortiGate</span>
-        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">DevNetOps</span>
-        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Prometheus</span>
-        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Automation</span>
-        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">شبکه</span>
+    <!-- معرفی -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-3">درباره من</h2>
+      <p class="text-gray-700 leading-relaxed text-justify">
+        متخصص DevNetOps و پشتیبانی فنی با تجربه عملی در پاسخگویی به کاربران، طراحی سیستم‌های مانیتورینگ هوشمند و پیاده‌سازی راهکارهای امنیتی مبتنی بر MFA و OTP. مسلط به FortiGate، Zabbix، Prometheus و پایتون. توانمند در حل مشکلات کاربران، مستندسازی فرآیندها و پیاده‌سازی اتوماسیون در لایه‌های مختلف شبکه. به دنبال موقعیت‌هایی در حوزه Help Desk، DevNetOps و مانیتورینگ شبکه هستم.
+      </p>
+    </section>
+
+    <!-- مهارت‌ها -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">مهارت‌ها</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+        <div>
+          <p class="font-semibold text-gray-800">Python</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-full h-full"></div></div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800">امنیت شبکه و زیرساخت</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-full h-full"></div></div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800">برنامه‌نویسی شبکه</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-full h-full"></div></div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800">پروتکل‌های شبکه</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-4/5 h-full"></div></div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800">مدیریت سرور و پیکربندی</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-full h-full"></div></div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800">تحلیل و عیب‌یابی شبکه</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-full h-full"></div></div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800">اتوماسیون شبکه</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-full h-full"></div></div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800">الگوریتم‌های هوش مصنوعی</p>
+          <div class="w-full bg-gray-200 progress-bar"><div class="bg-blue-500 w-full h-full"></div></div>
+        </div>
+      </div>
+    </section>
+        <!-- سوابق شغلی -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">سوابق شغلی</h2>
+      
+      <div class="mb-6">
+        <h3 class="text-xl font-bold text-gray-800">Ai Monitoring Engineer - Zabbix LLC (ریگا، لیتوانی)</h3>
+        <p class="text-sm text-gray-500 mb-2">۲۰۲۴ – اکنون</p>
+        <ul class="list-disc pr-5 text-gray-700 text-sm space-y-1">
+          <li>طراحی و پیاده‌سازی زیرساخت مانیتورینگ با Zabbix</li>
+          <li>ساخت قالب‌های پیشرفته Zabbix برای سرویس‌های خاص</li>
+          <li>جمع‌آوری داده با پایتون از منابع غیر استاندارد</li>
+          <li>بهینه‌سازی تریگرها و کاهش هشدارهای اشتباه</li>
+          <li>اتصال Zabbix به Prometheus و Alertmanager</li>
+          <li>ساخت بات Mattermost برای اعلان‌های ساختاریافته</li>
+          <li>تحلیل رخدادها با مدل LLaMA و خلاصه‌سازی خودکار</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-bold text-gray-800">DevNet/Ops - شرکت بلو بانک</h3>
+        <p class="text-sm text-gray-500 mb-2">خرداد ۱۴۰۳ – تیر ۱۴۰۴</p>
+        <ul class="list-disc pr-5 text-gray-700 text-sm space-y-1">
+          <li>طراحی سیستم OTP و ارسال از طریق SMS و Bale</li>
+          <li>راه‌اندازی MFA برای VPN و FortiGate با Flask</li>
+          <li>طراحی داشبورد گرافیکی برای VLAN و pvlan با Flask</li>
+          <li>ادغام LibreChat با Active Directory و GPT</li>
+          <li>پیاده‌سازی CI/CD با GitHub Actions و Jenkins</li>
+          <li>مانیتورینگ با Prometheus، Grafana و LLaMA</li>
+          <li>DNS Relay با CoreDNS و فوروارد امن به AdGuard</li>
+        </ul>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-bold text-gray-800">Help Desk - شرکت بلو بانک</h3>
+        <p class="text-sm text-gray-500 mb-2">خرداد ۱۴۰۲ – خرداد ۱۴۰۳</p>
+        <ul class="list-disc pr-5 text-gray-700 text-sm space-y-1">
+          <li>پاسخگویی روزانه به کاربران و ثبت درخواست‌ها در ServiceDesk</li>
+          <li>رفع مشکلات نرم‌افزاری، شبکه‌ای و پرینترها</li>
+          <li>مدیریت کاربران Active Directory</li>
+          <li>آموزش کاربران جدید و مستندسازی راه‌حل‌ها</li>
+          <li>مشارکت در استقرار MFA، OTP و تحلیل درخواست‌های پرتکرار</li>
+        </ul>
       </div>
     </section>
 
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold text-blue-600 mb-3">سوابق شغلی</h2>
-      <div class="mb-4">
-        <h3 class="text-xl font-bold">Zabbix LLC (لیتوانی) - مهندس مانیتورینگ</h3>
-        <p class="text-sm text-gray-500">۲۰۲۴ - اکنون</p>
-        <ul class="list-disc pr-5 mt-2 text-sm text-gray-700">
-          <li>طراحی زیرساخت مانیتورینگ با Zabbix</li>
-          <li>ادغام با Prometheus و AI برای تحلیل</li>
-          <li>اعلان‌های لحظه‌ای Mattermost</li>
-        </ul>
+    <!-- پروژه‌ها -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">پروژه‌ها</h2>
+
+      <div class="space-y-4 text-sm text-gray-700">
+        <div>
+          <h4 class="text-lg font-bold">OTP & MFA System for FortiGate (SMS + Bale)</h4>
+          <p>سیستم احراز هویت دومرحله‌ای با اتصال به AD و SQLite</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold">AI-Powered Monitoring System</h4>
+          <p>اتصال LLaMA به Prometheus، خلاصه‌سازی هشدارها و ارسال به Mattermost</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold">DNS Relay Platform for Filtering Bypass</h4>
+          <p>راه‌اندازی DNS شخصی با فوروارد امن به AdGuard بدون فاش شدن IP</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold">Switch Automation System</h4>
+          <p>داشبورد VLAN با Netmiko و Flask، تغییر پورت و ذخیره در MySQL</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold">LibreChat Integration Panel</h4>
+          <p>احراز هویت با AD و پروکسی توکن GPT برای استفاده امن داخلی</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold">Zabbix Monitoring + AI Analysis</h4>
+          <p>ساخت Template سفارشی، تحلیل با OpenRouter، و خروجی Mattermost</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold">Real-time Alert Engine (Markdown)</h4>
+          <p>پایپ‌لاین Alertmanager به Mattermost با قالب Markdown</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg font-bold">Multi-Stage Domain Monitoring</h4>
+          <p>بررسی SSL دامنه‌ها با n8n و ارسال هشدار به ایمیل و Mattermost</p>
+        </div>
       </div>
-      <div class="mb-4">
-        <h3 class="text-xl font-bold">بلو بانک - DevNetOps</h3>
-        <p class="text-sm text-gray-500">۱۴۰۳ - ۱۴۰۴</p>
-        <ul class="list-disc pr-5 mt-2 text-sm text-gray-700">
-          <li>پیاده‌سازی MFA و OTP</li>
-          <li>داشبورد Flask برای VLAN</li>
-          <li>اتصال LibreChat به AD</li>
-        </ul>
+    </section>
+        <!-- تحصیلات -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">تحصیلات</h2>
+      <div class="text-sm text-gray-700 space-y-2">
+        <p><strong>کاردانی بازاریابی</strong> – دانشگاه علمی کاربردی، تهران (۱۴۰۳ – اکنون) | معدل: ۱۹</p>
+        <p><strong>دیپلم ریاضی و فیزیک</strong> – تهران (خرداد ۱۴۰۰)</p>
       </div>
     </section>
 
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold text-blue-600 mb-3">پروژه‌ها</h2>
-      <ul class="list-disc pr-5 text-sm text-gray-700">
-        <li>OTP & MFA برای FortiGate با ارسال از Bale و SMS</li>
-        <li>سیستم مانیتورینگ AI با LLaMA و Prometheus</li>
-        <li>DNS Relay با CoreDNS و فوروارد امن</li>
+    <!-- گواهینامه‌ها -->
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">دوره‌ها و گواهینامه‌ها</h2>
+      <div class="grid grid-cols-2 gap-4 text-sm text-gray-700">
+        <div>MCSA</div>
+        <div>+Network</div>
+        <div>VCP</div>
+        <div>DevNet</div>
+        <div>CCNP</div>
+        <div>CCNA</div>
+        <div>MTCNA</div>
+      </div>
+    </section>
+
+    <!-- زبان‌ها -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">زبان‌ها</h2>
+      <ul class="list-disc pr-5 text-sm text-gray-700 space-y-1">
+        <li>انگلیسی — TOEFL iBT: 102 (Speaking: 26, Listening: 27, Reading: 25, Writing: 24)</li>
+        <li>ایتالیایی — سطح B1 (مکالمه و درک عمومی)</li>
       </ul>
     </section>
 
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold text-blue-600 mb-3">تحصیلات</h2>
-      <p class="text-sm text-gray-700">دانشجوی کاردانی بازاریابی – دانشگاه علمی کاربردی – معدل ۱۹</p>
-      <p class="text-sm text-gray-700">دیپلم ریاضی و فیزیک – تهران</p>
-    </section>
+    <!-- Footer -->
+    <footer class="text-center text-xs text-gray-500 border-t pt-6">
+      <p>© 2025 ارشیا تقی‌زاده غفاری. تمامی حقوق محفوظ است.</p>
+      <p>رزومه شخصی ساخته شده با ❤️ و TailwindCSS</p>
+    </footer>
 
-    <section>
-      <h2 class="text-2xl font-semibold text-blue-600 mb-3">زبان‌ها</h2>
-      <p class="text-sm text-gray-700">انگلیسی (TOEFL 102)، ایتالیایی (B1)</p>
-    </section>
   </div>
 </body>
 </html>
